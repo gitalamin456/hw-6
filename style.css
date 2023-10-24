@@ -1,0 +1,62 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ body{
+    font-family: 'Open Sans', sans-serif;
+    
+    /* nab bar start */
+ }
+nav{
+    background-color: #02918c;
+}
+
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+   
+}
+
+nav .menu{
+    width: 70%;
+    text-align: right;
+}
+
+nav .menu li{
+    display: inline-block;
+    
+}
+
+nav .menu li a {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 26px;
+    display: block;
+    font-size: 12px;
+
+}
+ 
+
+
+/* nav bar ends */
